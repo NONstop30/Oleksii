@@ -1,0 +1,53 @@
+img {
+    height: 45px;
+}
+body {
+    font-size: 15px;
+    color: #757575;
+}
+h1 {
+    color: red;
+    text-align: center;
+
+}
+.headerP1 {
+    background-color: #0000fe;
+    width: 100px;
+    color: white;
+    margin-top: 25px;
+}
+.headerP2 {
+    margin-top: 110px;
+}
+h2 {
+    background-color: #008001;
+    color: white;
+}
+.section1 h2 {
+    padding: 6px;
+}
+.section2 h2 {
+    padding: 44px;
+}
+.formP {
+    padding-left: 90px;
+}
+
+input {
+    
+    border-style: 0;
+    direction: unset;
+}
+li {
+    border: 1px solid #757575;
+    font-size: 30px;
+    color: black;
+    font-weight: lighter;
+}
+footer h2 {
+    padding: 5px;
+    padding-top: 12px;
+}
+ul {
+    padding-top: 20px;
+}

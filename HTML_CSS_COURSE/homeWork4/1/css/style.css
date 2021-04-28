@@ -1,0 +1,222 @@
+
+
+header {
+    background: #3e9fe5;
+    background: -moz-linear-gradient(left, #3e9fe5 0%, #3994dd 69%, #378fd9 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #3e9fe5), color-stop(69%, #3994dd), color-stop(100%, #378fd9));
+    background: -webkit-linear-gradient(left, #3e9fe5 0%, #3994dd 69%, #378fd9 100%);
+    background: -o-linear-gradient(left, #3e9fe5 0%, #3994dd 69%, #378fd9 100%);
+    background: -ms-linear-gradient(left, #3e9fe5 0%, #3994dd 69%, #378fd9 100%);
+    background: linear-gradient(to right, #3e9fe5 0%, #3994dd 69%, #378fd9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e9fe5', endColorstr='#378fd9', GradientType=1 );
+    padding-bottom: 140px;
+    color: white;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+
+}
+h1, h2, h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+body {
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#logo  {
+    padding-top: 70px;
+    align-self: flex-start;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 55px;
+}
+h1 {
+    font-size: 37px;
+    
+    }
+.left {
+    width: 620px;
+}
+.left p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 40px;
+    width: 409px;
+    line-height: 1.8em;
+    margin: 0;
+
+}
+.right {
+    margin: 0;
+    background-color: green;
+}
+span {
+    font-size: 59px;
+}
+.right {
+    border: 1px solid red;
+    margin: 0;
+    border-left: -60px;
+}
+.btn {
+    display: block;
+    text-decoration: none;
+    width: 222px;
+    padding: 18px 0;
+    background-color: #ffd429;
+    font-family: 'Montserrat', sans-serif;
+    color: #2e2a1b;
+    text-align: center;
+    margin-top: 41px;
+    font-weight: black;
+    transition: 0,5s ease;
+}
+.btn:hover {
+    background-color: #e7be1a;
+}
+
+.section1wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.section1Content {
+    
+    width: 300px;
+    text-align: center;
+
+}
+
+.section1 {
+    color: #201b2d;
+    
+}
+.section1 h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 74px;
+    padding-top: 70px;
+
+}
+.section1 h3 {
+    font-size: 19px;
+    padding-top: 30px;
+}
+.section2 {
+    background-color: #ecf3f8;
+}
+.section2 h2 {
+    color: #201b2d;
+    font-size: 30px;
+    text-align: center;
+}
+form {
+    width: 342px;
+    padding: 18px 0;
+    justify-content: center;
+    margin: 0 auto;
+}
+input {
+    border: 1px solid #bbbbbb;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    width: 342px;
+    height: 47px;
+    padding-bottom: 0px;
+    border-radius: 3px;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 16px;
+    padding-left: 24px;
+}
+.btnButton {
+    border: 0;
+    width: 342px;
+    margin: 0;
+    margin-bottom: 106px;
+}
+.headerSection2 {
+    padding-top: 104px;
+}
+
+footer {
+    background-color: #164d7a;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.animate__animated {
+    opacity: 0;
+}
+.footer {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .desktopImg {
+        width: 450px;
+        height: auto;
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .contentHeader {
+        display: flex;
+        flex-direction: column;
+    }
+    .desktopImg {
+        display: none;
+    }
+    .left {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .section1wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .section1Content {
+        margin: 0 auto;    
+    }
+}
+@media screen and (max-width: 576px) {
+    .container {
+        width: 320px;
+    }
+    .left p {
+        width: 320px;
+    }
+}

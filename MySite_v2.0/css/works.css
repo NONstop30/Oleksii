@@ -1,0 +1,115 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+header {
+    background:rgba(0, 0, 0, 0.3) url(../bg/work-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 95vh;
+    width: 100vw;
+    z-index: -100;
+    background-blend-mode: overlay;
+}
+.header__content {
+    height: 100vh;
+    
+}
+.header__h1 {
+    font-size: 70px;
+}
+.form-content {
+    margin: 0 auto;
+}
+
+.gallery-block {
+    padding-bottom: 100px;
+}
+.gallery-block__heading {
+    height: 287px;
+    width: 100%;
+    background-color: #FCDA50;
+    margin-bottom: 100px;
+}
+.card__h6 {
+    font-size: 17px; 
+    font-weight: 500;
+    height: 65px;
+    width: 100%;
+    background-color: #FCDA50;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.card {
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    height: 400px;
+    width: 300px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 10px 10px rgba(252,218,80,0.15);
+            box-shadow: 0px 10px 10px rgba(252,218,80,0.15);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid #FCDA50;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+.card__dev {
+    height: 370px;
+}
+.card img {
+    -webkit-box-shadow: 0px 10px 10px rgba(0,0,0,0.15);
+            box-shadow: 0px 10px 10px rgba(0,0,0,0.15);
+    width: 298px;
+    height: 165px;
+    overflow: hidden;
+}
+.card-text {
+    padding: 20px 10px;
+}
+.card-body {
+    text-align: center; 
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.card-body p{
+    font-size: 15px;
+}
+.card__link{
+    color:#212529; 
+}
+.card__link:hover{
+    text-decoration: none;
+}
+.transform-on-hover:hover {
+    -webkit-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+            transform: scale(1.02);
+    -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+}
+
+footer {
+    background-color: #FBD95C;
+}
+.footer__links {
+    border-bottom: 1px solid #FBD95C;
+}
+.footer__links:hover {
+    border-bottom: 1px solid #6dc465;
+}
+.development {
+    margin-bottom: 100px;
+}

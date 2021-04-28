@@ -1,0 +1,49 @@
+
+.contacts__header {
+    height: 745px;
+    background-image: url(../img/img-main/header-bgpng.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+    width: 100%;
+}
+.contacts__h1 {
+    font-size: 3.188rem;
+    letter-spacing: 0.2em;
+}
+.header__content_contacts {
+    padding-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.header__arrow_contacts {
+    margin: 0 auto;
+}
+.contacts__main {
+    width: 100%;
+    height: 650px;
+    margin-top: -250px;
+    background-color: #ffffff;
+}
+.contacts-questions__form {
+    height: 470px;
+    width: 390px;
+    background-color: #11b2f5;
+    padding: 0 !important;
+}
+.contacts-questions__h2 {
+    font-size: 1.563rem;
+    margin-top: 40px;
+}
+.contacts-questions__subheader {
+    font-size: 1.125rem;
+    margin-top: 16px;
+}
+.contacts-questions__input .contacts-questions__input_1{
+    width: 293px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
